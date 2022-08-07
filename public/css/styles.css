@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-snap-type: x mandatory;
+}
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9UU2n2TBjAt5MRRQgqSPnbw0zA4Z_8c9Mm1GlkQk601RBuuV5RExO5S3A09WBRB86Nk&usqp=CAU);
+  background-repeat: repeat;
+  scroll-behavior: smooth;
+}
+.prior {
+  height: 100vh;
+  background: #202024;
+}
+.homes {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: #202024;
+}
+.homes .home {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  text-align: left;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 3em 0em 0em 2em;
+}
+.home p {
+  font-size: 2.5em;
+  font-family: 'Bebas Neue';
+  transition: 0.5s all;
+}
+.house_type {
+  color: white;
+}
+.name_container {
+  height: 100%;
+  padding-top: 5em;
+}
+.name_container p {
+  color: red;
+  position: relative;
+  transform: rotate(90deg) translateX(20%);
+  transform-origin: 0 0;
+  font-weight: bolder;
+  font-size: 3em;
+}
+.one,
+.two,
+.three,
+.four {
+  transition: 0.6s all;
+}
+
+.home__name {
+  color: white;
+}
+.one {
+  background-image: url(../img/home-1.jpg);
+  transform: translateY(15%);
+}
+.two {
+  background-image: url(../img/home-2.jpg);
+  transform: translateY(20%);
+}
+.three {
+  background-image: url(../img/home-3.jpg);
+  transform: translateY(25%);
+}
+.four {
+  background-image: url(../img/home-4.jpg);
+  transform: translateY(30%);
+}
+.lift {
+  transform: translateY(0);
+}
+.num {
+  color: #b3965e;
+}
+.contact__section {
+  padding: 4em 6em;
+  color: white;
+  height: 100vh;
+}
+.contain {
+  transition: 0.6s all;
+  transform: translateY(25%);
+}
+.formXdetails {
+  max-width: 120em;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 0;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.contact__form {
+  /*   border: 1px solid white;
+ */
+  flex-grow: 1;
+}
+.form__header {
+  transform: translateY(25%);
+  transition: 0.4s transform;
+}
+.contact__form .submit__btn {
+  display: block;
+}
+/* .contact__section .contact__details {
+} */
+.contact__section h2 {
+  font-family: 'Bebas Neue';
+  font-size: 3em;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.emailXphone {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  width: 93%;
+}
+.contact__details {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.contact__details h1 {
+  margin: 0;
+}
+.contact__details p {
+  margin: 0;
+}
+
+.addresses,
+.numbers,
+.emails {
+  font-weight: bolder;
+}
+.numbers {
+  margin-bottom: 20px;
+}
+
+.emails {
+  margin-bottom: 20px;
+}
+.inputs {
+  background-color: #202024;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  color: lightgray;
+  width: 100%;
+  font-family: 'Roboto';
+}
+.regular__input {
+  height: 3em;
+}
+.submit__btn {
+  width: 94%;
+  height: 3.5em;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #b3965e;
+  color: white;
+  font-weight: bold;
+}
+textarea {
+  resize: none;
+  height: 6em;
+}
+footer {
+  display: flex;
+  color: white;
+  max-width: 120em;
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 5em;
+}
+.company__logo {
+  font-family: 'Bebas Neue';
+  font-size: 2em;
+}
+
+.copyrights {
+  font-family: 'Roboto';
+  font-weight: bolder;
+  padding-top: 5px;
+}
